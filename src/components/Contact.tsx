@@ -68,8 +68,7 @@ export default function Contact() {
           <Reveal delay={0.15}>
             <p className="mt-6 max-w-md text-dust text-[15px] leading-relaxed">
               Computer Science graduate from PDPM IIITDM Jabalpur, now open to <span className="text-star">full-time software development and AI/ML roles</span>.
-              Whether it's a product to ship, research to continue, or just shop talk about gRPC vs REST — my
-              channel is open.
+              Whether it's a product to ship, research to continue — my channel is open.
             </p>
           </Reveal>
 
