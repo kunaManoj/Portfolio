@@ -66,10 +66,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: EASE, delay: 0.55 }}
             className="mt-6 max-w-2xl text-[15px] leading-relaxed text-dust"
           >
-            Full-stack developer and AI/ML researcher with experience building production insurance workflows in
-            TypeScript and Golang, responsive client platforms with React, Node.js and MongoDB, and scalable ERP
-            systems. I also work on EEG deep-learning research and Android malware detection, backed by a B.Tech in
-            Computer Science from IIITDM Jabalpur.
+          I’m a Computer Science graduate and Software Developer with hands-on experience building full-stack applications using React, TypeScript, Node.js, Go, Django, and modern databases. I’ve worked on production software, scalable web platforms, and research projects involving deep learning, cybersecurity, and AI. I enjoy turning real-world problems into reliable, user-focused solutions and continuously exploring emerging technologies in AI and software engineering.
           </motion.p>
 
           <motion.div
@@ -80,7 +77,7 @@ export default function Hero() {
           >
             <Magnetic>
               <button
-                onClick={() => scrollToId("experience")}
+                onClick={() => scrollToId("projects")}
                 className="inline-flex items-center gap-3 px-7 py-4 rounded-md bg-solar text-[#0a0d1f] font-mono text-xs font-semibold tracking-[0.22em] uppercase shadow-[0_14px_40px_rgba(252,182,75,0.3)] hover:bg-[#ffc76b] hover:shadow-[0_14px_52px_rgba(252,182,75,0.45)] transition-all duration-300"
               >
                 <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -110,7 +107,7 @@ export default function Hero() {
             transition={{ duration: 1, delay: 1.1 }}
             className="mt-7 font-mono text-[10px] tracking-[0.25em] uppercase text-dust"
           >
-            <span className="text-nebula">●</span> open to SDE roles — Computer Science graduate · IIITDM Jabalpur
+            <span className="text-nebula">●</span> Computer Science graduate · IIITDM Jabalpur
           </motion.p>
         </div>
 
@@ -240,7 +237,7 @@ export default function Hero() {
             <p className="flex items-center gap-2 text-nebula">
               <span className="w-1.5 h-1.5 rounded-full bg-nebula animate-pulse-soft" /> status — open to work
             </p>
-            <p className="mt-1">pilot — K. Manoj · IIITDMJ</p>
+            <p className="mt-1">Signal source — Kuna Manoj</p>
           </motion.div>
         </motion.div>
       </div>
